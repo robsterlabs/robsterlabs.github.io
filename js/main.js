@@ -1,6 +1,6 @@
 var shop = {
     start: function (url) {
-        var url = url || 'http://localhost/cart/data.json'; // url should be defined here to initialize shop. It might be called on body load (see: index.html line 18)
+        var url = url || 'http://robsterlabs.github.io/data.json'; // url should be defined here to initialize shop. It might be called on body load (see: index.html line 18)
         httpGet(url, function (data) {
             shop.product.setData(JSON.parse(data));
             if (data.length > 0) {
