@@ -1,0 +1,81 @@
+[{
+  "id": 1,
+  "title": "Smokehouse Burger",
+  "price": 12.5,
+  "description": "Our 1/2 pound burger grilled & topped w/ our signature apple butter bbq sauce, cheddar cheese, bacon & red onion served w/ harvest fries",
+  "modifiers": [{
+    "id": 1,
+    "title": "Ingredients",
+    "mods": [{
+      "id": 1,
+      "title": "Apple Butter BBQ Sauce",
+      "selected": false
+    }, {
+      "id": 2,
+      "title": "Cheddar Cheese",
+      "selected": false
+    }, {
+      "id": 3,
+      "title": "Bacon",
+      "selected": false
+    }, {
+      "id": 4,
+      "title": "Red Onion",
+      "selected": false
+    }, {
+      "id": 5,
+      "title": "Ketchup",
+      "selected": true
+    }, {
+      "id": 6,
+      "title": "Mayo",
+      "selected": true
+    }, {
+      "id": 7,
+      "title": "Mustard",
+      "selected": true
+    }]
+  }, {
+    "id": 2,
+    "title": "Temperature",
+    "mods": [{
+      "id": 1,
+      "title": "Rare",
+      "selected": false
+    }, {
+      "id": 2,
+      "title": "Medium Rare",
+      "selected": false
+    }, {
+      "id": 3,
+      "title": "Medium",
+      "selected": false
+    }, {
+      "id": 4,
+      "title": "Medium Well",
+      "selected": true
+    }, {
+      "id": 5,
+      "title": "Well Done",
+      "selected": false
+    }]
+  }]
+}, {
+  "id": 2,
+  "title": "Orchard Burger",
+  "price": 12.5,
+  "description": "Our original 1/2 pound burger grilled & served on a buttery roll w/ lettuce, tomato, pickle spear & harvest fries",
+  "modifiers": []
+}, {
+  "id": 3,
+  "title": "The Farmer's Burger",
+  "price": 12.5,
+  "description": "Our 1/2 pound burger grilled & topped w/ tomato, bacon & an over medium egg served on a buttery roll",
+  "modifiers": []
+}, {
+  "id": 4,
+  "title": "Mini-Man Burgers",
+  "price": 12.5,
+  "description": "Three mini burgers served w/ fried pickles & harvest fries",
+  "modifiers": []
+}]
