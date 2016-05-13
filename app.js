@@ -37,13 +37,6 @@ myModule.service('ngcartModel', function () {
     };
 });
 
-myModule.controller('myCtrl', function ($scope, $http) {
-    $http.get("welcome.htm")
-            .then(function (response) {
-                $scope.myWelcome = response.data;
-            });
-});
-
 myModule.controller('ShopCtrl', function (ngcartModel, ngcartHelper, $http) {
     $http({
         method: 'GET',
@@ -113,13 +106,5 @@ myModule.controller('ShopCtrl', function (ngcartModel, ngcartHelper, $http) {
         var final = shop.pricing.delivery + taxes + total;
         shop.pricing.taxes = taxes.toFixed(2) - 0;
         shop.pricing.total = final.toFixed(2) - 0;
-    }
-});
-
-myModule.directive('modifier', function () {
-    return {
-        scope: true,
-        replace: true,
-        template: '<div><p>{{product.modifiers.title}}</h4></div>'
     }
 });
