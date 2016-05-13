@@ -47,11 +47,11 @@ myModule.controller('myCtrl', function ($scope, $http) {
 myModule.controller('ShopCtrl', function (ngcartModel, ngcartHelper, $http) {
     $http({
         method: 'GET',
-        url: 'http://robsterlabs.github.io/ngcart/data.json'
+        url: 'http://robsterlabs.github.io/data.json'
     }).then(function successCallback(response) {
         shop.products = response.data;
     }, function errorCallback(response) {
-        alert(response)
+        console.log(response)
     });
 
     var shop = this;
